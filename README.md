@@ -1,5 +1,7 @@
 # NSAP-1 (Not Simple as Possible)
 
+![NSAP1](https://github.com/Diogo-Valadares/NSAP-1/assets/58271577/b2e1aaf5-f8dc-4465-84c0-f2a8eeef4a51)
+
 ## Overview
 NSAP-1 is an computational architecture that builds upon the principles of the SAP-1 (Simple as Possible) computer but introduces higher complexity and functionality. This is a personal project with the intention of just learning about computers architectures.
 
