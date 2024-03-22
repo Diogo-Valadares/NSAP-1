@@ -22,11 +22,17 @@ NSAP-1 is an computational architecture that builds upon the principles of the S
 
 ## Getting Started
 To work with NSAP-1, you will need:
-- **Logisim Evolution**: An educational tool for designing and simulating digital logic circuits.
+- **[Logisim Evolution](https://github.com/logisim-evolution/logisim-evolution)**: An educational tool for designing and simulating digital logic circuits.
 - **VHDL Simulator**: A tool like Altera ModelSim must be installed on your machine and linked to Logisim Evolution to simulate VHDL designs.
+
+First you will need to add the VHDL simulator to your logisim evolution, and to do it you go to `Edit`->`Preferences`->`Software` and at your simulator path to `Quest Advanced Simulator Path`. If you have quartus prime lite, then you path would be something like C:\intelFPGA_lite\<version>\modelsim_ase\win32aloem (change <version> for your quartus prime version, like 20.1). After doing so, you open the SAP1Evolution.circ, activate `Simulate`(Top bar)->`VHDL Simulation Enabled`, then go `Simulate`(Beside Design) and click on the first clock icon, this will start the clock. After that you just need to click the computer `Reset` button.
+
+To load programs to the computer you need to write them directly to the ram. To do so you will `right click the ram`->`Edit Contents`->`Open` and then select the program file that you can generate with the assembler. You can also manually edit it if you really want.
 
 ## Assembler
 The project includes a C# assembler that allows you to create programs that can be loaded directly into the NSAP-1's RAM.
+When you run the assembler, you just need to type the assembly code file name, that should be on the same folder as the assembler executable.
+Documentation for the assembler is pendent.
 
 ## Documentation
 The documentation process is ongoing. We aim to provide comprehensive information to help you understand and contribute to the project effectively.
